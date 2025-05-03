@@ -19,7 +19,7 @@ export const files = pgTable("files", {
 
     // file/folder flags
     isFolder: boolean("is_folder").default(false).notNull(),
-    isStared: boolean("is_stared").default(false).notNull(),
+    isStarred: boolean("is_stared").default(false).notNull(),
     isTrash: boolean("is_trash").default(false).notNull(),
 
     // Timestamps
